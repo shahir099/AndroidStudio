@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1044910257562",
+    "firebase_url": "https://orderyourfood-c3abc.firebaseio.com",
+    "project_id": "orderyourfood-c3abc",
+    "storage_bucket": "orderyourfood-c3abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044910257562:android:453f500f656ec2fd",
+        "android_client_info": {
+          "package_name": "com.example.shahir.orderyourfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044910257562-87974hj7g356q1lqapbn3j0ji7815q8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shahir.orderyourfood",
+            "certificate_hash": "d28c152db21c0725f5f444fd80e342179d9deaf1"
+          }
+        },
+        {
+          "client_id": "1044910257562-pnqft9fstkg58otht2vgjoi1m9m3lmhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj8Rlj1gYa7152nu0p96heGyPLcjSO1fI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044910257562-pnqft9fstkg58otht2vgjoi1m9m3lmhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

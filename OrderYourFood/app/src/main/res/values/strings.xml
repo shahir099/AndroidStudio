@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OrderYourFood</string>
+    <string name="slogan">Where Ever You Go\nWhat ever You do\nWe will be right There waiting for you</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
