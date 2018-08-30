@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/asianew"
+    android:background="@drawable/head"
+
     tools:context="com.example.shahir.orderyourfood.MainActivity">
 
     <LinearLayout
@@ -12,27 +13,23 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:orientation="vertical"
-        android:layout_marginTop="130dp">
+        android:layout_marginTop="10dp">
 
-
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="100dp"
-            android:src="@drawable/logo_eat_it" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/teamwork" />
+            android:src="@drawable/hotel" />
 
         <TextView
             android:id="@+id/txtSlogan"
+            android:layout_marginTop="80dp"
             android:layout_width="200dp"
             android:layout_height="199dp"
             android:gravity="center"
             android:text="@string/slogan"
             android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textSize="30sp" />
 
     </LinearLayout>
 
@@ -49,10 +46,11 @@
         android:textColor="@android:color/white"
         android:layout_weight="1"
         android:layout_width="0dp"
-        app:buttonColor="@color/colorPrimary"
+        app:buttonColor="#264f42"
         android:layout_margin="8dp"
         app:shadowColor="@android:color/black"
         android:layout_height="wrap_content"
+        android:background="#6dc066"
        />
 
     <info.hoang8f.widget.FButton
@@ -65,6 +63,7 @@
         app:buttonColor="@color/btnSignActive"
         android:layout_margin="8dp"
         app:shadowColor="@android:color/black"
+        android:background="#6dc066"
         />
 
     </LinearLayout>

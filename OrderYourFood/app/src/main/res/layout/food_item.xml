@@ -5,18 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="200dp"
     app:cardElevation="4dp"
-    android:layout_marginBottom="8dp">
+    android:layout_margin="10dp"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+       >
 
         <ImageView
             android:id="@+id/food_image"
             android:scaleType="centerCrop"
             android:src="@drawable/background"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"/>
 
 
         <TextView

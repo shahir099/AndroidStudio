@@ -57,13 +57,16 @@ public class SignIn extends AppCompatActivity {
                                 mDialog.dismiss();
                                 User user = dataSnapshot.child(edtPhone.getText().toString()).getValue(User.class);
 
+                                /// Setting Phone Number
+
+                                user.setPhone(edtPhone.getText().toString());
                                 if (user.getPassword().equals(edtPassword.getText().toString())) {
                                     Intent homeIntent=new Intent(SignIn.this,Home.class);
                                     Common.currentUser=user;
                                     startActivity(homeIntent);
                                     finish();
                                 } else {
-                                    Toast.makeText(SignIn.this, "Wrong Password  !! ", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(SignIn.this, "Wrong Credentials !! ", Toast.LENGTH_SHORT).show();
                                 }
                             }
                             else {

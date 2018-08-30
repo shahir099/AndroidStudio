@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.shahir.orderyourfood"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -31,8 +31,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     ///Add library
-
-
+    compile 'com.github.mancj:MaterialSearchBar:0.7.1'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
     compile 'com.cepheuen.elegant-number-button:lib:1.0.2'
     compile 'com.android.support:design:26.+'
     compile 'com.android.support:appcompat-v7:26.+'
@@ -49,6 +50,8 @@ dependencies {
     compile 'com.firebaseui:firebase-ui-database:1.2.0'
     compile 'com.android.support:design:26.+'
     compile 'junit:junit:4.12'
+
+    compile 'com.github.sillebille:dynamic-calendar:1.0.1'
 }
 
 apply plugin: 'com.google.gms.google-services'
